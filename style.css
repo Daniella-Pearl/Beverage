@@ -1,0 +1,81 @@
+@media(max-width:768px){
+    .navigation{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu ul{
+        flex-direction: column;
+        width:100%;
+        margin-top: 10px;
+    }
+}
+body{
+    background:linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0.2,0,0.3)),url("beverage.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+}
+header{
+    color:aliceblue;
+    background-color: rgb(172, 195, 215);
+    padding:15px 30px;
+    /* min-width:10px; */
+    /* height:70px; */
+    /* flex-grow: 1; */
+    /* flex-flow: 200; */
+}
+.main{
+    text-transform: uppercase;
+
+}
+/* align logo and menu */
+.navigation{
+    text-decoration:dotted underline;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* gap:300px; */
+}
+.icon{
+    font-family: 'Geneva';
+}
+.logo{
+    font-size: 28px;
+    color:darkgoldenrod;
+}
+ul{
+    list-style: none;
+    margin-left:0;
+    padding:0;
+}
+/* make menus horizontal */
+.menu ul{
+    display:flex;
+    gap:25px;
+    padding: 0;
+    margin:0;
+}
+ul li{
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    color:black;
+}
+main{
+    font-size:30px;
+    color:pink;
+}
+.special{
+    font-family:"Sofia";
+}
+footer{
+    text-align: center;
+    color:white;
+    font-weight: 900;
+}
